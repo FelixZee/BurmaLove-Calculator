@@ -105,6 +105,16 @@ progress::-webkit-progress-bar {
 progress::-moz-progress-bar {
   background-color: rgb(230, 223, 223); 
 }
+
+/* global styles */
+input, textarea, select, button {
+  font-size: 16px; /* iOS auto-zoom ကိုတားတားရန် */
+}
+
+/* သီးခြား control တွေအတွက် */
+.card .form-control {
+  font-size: 16px;
+}
 /* Tablet */
 @media screen and (max-width: 1024px) {
   .container {
